@@ -223,7 +223,9 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="4.-Based-on-the-description-of-the-experiment-and-the-data-set,-list-at-least-two-variables-that-you-know-were-controlled.">4. Based on the description of the experiment and the data set, list at least two variables that you know were controlled.<a class="anchor-link" href="#4.-Based-on-the-description-of-the-experiment-and-the-data-set,-list-at-least-two-variables-that-you-know-were-controlled.">&#182;</a></h4><p>Think about the participants who generated the data and what they have in common. You don't need to guess any variables or read the full paper to determine these variables. (For example, it seems plausible that the material of the chopsticks was held constant, but this is not stated in the abstract or data description.)</p>
-<p>The number of adult,  the number of children, type of food (peanut).</p>
+<p>Type of food (peanut).
+The lengths of chopsticks were always constant.
+The two groups of people were involved: adults and children.</p>
 
 </div>
 </div>
@@ -1042,8 +1044,22 @@ RU5ErkJggg==
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="In-the-abstract-the-researchers-stated-that-their-results-showed-food-pinching-performance-was-significantly-affected-by-the-length-of-the-chopsticks,-and-that-chopsticks-of-about-240-mm-long-were-optimal-for-adults.">In the abstract the researchers stated that their results showed food-pinching performance was significantly affected by the length of the chopsticks, and that chopsticks of about 240 mm long were optimal for adults.<a class="anchor-link" href="#In-the-abstract-the-researchers-stated-that-their-results-showed-food-pinching-performance-was-significantly-affected-by-the-length-of-the-chopsticks,-and-that-chopsticks-of-about-240-mm-long-were-optimal-for-adults.">&#182;</a></h3><h4 id="7a.-Based-on-the-data-you-have-analyzed,-do-you-agree-with-the-claim?">7a. Based on the data you have analyzed, do you agree with the claim?<a class="anchor-link" href="#7a.-Based-on-the-data-you-have-analyzed,-do-you-agree-with-the-claim?">&#182;</a></h4><p>Yes.</p>
-<h4 id="7b.-Why?">7b. Why?<a class="anchor-link" href="#7b.-Why?">&#182;</a></h4><p>The trends are clearly visible. First effectivness raises and then falls when the length of the chopsticks increases. 
-For 240mm we observe the highest effectivness.</p>
+<h4 id="7b.-Why?">7b. Why?<a class="anchor-link" href="#7b.-Why?">&#182;</a></h4><p>To prove that we can use t-test - calculated using quickcals:
+Group      240mm        330mm<br>
+Mean    26.32290323000    23.99967742000
+SD        4.45757871000    4.19889785800
+SEM        0.81383880377    0.76661035783
+N        30              30</p>
+<p>Intermediate values used in calculations:
+  t = 2.0779
+  df = 58
+  standard error of difference = 1.118</p>
+<p>tCritical(alfa=0.05)=1.6715</p>
+<p>t-tCritical&gt;0 which means that we reject hypotesis zero and state that the difference is statistically significant</p>
+<p>Copying from quickcals:
+  P value and statistical significance: 
+  The two-tailed P value equals 0.0422
+  By conventional criteria, this difference is considered to be statistically significant.</p>
 
 </div>
 </div>
